@@ -1,5 +1,5 @@
 $(document).ready(() => {
-
+// 322000416892
   let moveCamOut = () => {
     // var cameras = clara.scene.getAll({ type: 'Camera', property: 'name' });
     let outter_cam = '8563dc3f-c1ad-4e63-9f79-239b3148b65b';
@@ -12,6 +12,7 @@ $(document).ready(() => {
   }
 
   $(document).on("click", ".selectModel:eq(0),.selectModel:eq(3)", function () {
+    // moveCamIn();
     $(".size-menu").slideDown(500);
     $(".first-menu").slideUp(500);
     $(".mob-navigator[data-tab='#mobsize-tab']").trigger("click");
@@ -198,9 +199,7 @@ $(document).ready(() => {
     let s = $(this).data("scale");
     s /= 2;
     console.log(s)
-    // h = h == 1 ? h = 1 : h / 2
-    // console.log(h)
-    transform(s, s, s, config.modelSize);
+    transform(s, 1, s, config.modelSize);
     $(this).find("input[type='radio']").prop("checked", true);
 
   });

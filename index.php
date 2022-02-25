@@ -479,7 +479,7 @@ if (!empty($_GET['id'])) {
 
 			<div class="align-items-center d-flex justify-content-center m-0 p-0 text-center icons-prnt bg-inf">
 				<span class="confirm-icon fmenu_cross"><i class="fas fa-times"></i></span>
-				<span class="confirm-icon fmenu_tick"><i class="fas fa-check"></i></span>
+				<!-- <span class="confirm-icon fmenu_tick"><i class="fas fa-check"></i></span> -->
 			</div>
 		</div>
 		<!-- end-1st-tab -->
@@ -517,7 +517,7 @@ if (!empty($_GET['id'])) {
 				</ul>
 				<div class="align-items-center d-flex justify-content-center m-0 p-0 text-center icons-prnt ">
 					<span class="confirm-icon parts-cross"><i class="fas fa-times"></i></span>
-					<span class="confirm-icon part-tick"><i class="fas fa-check"></i></span>
+					<!-- <span class="confirm-icon part-tick"><i class="fas fa-check"></i></span> -->
 				</div>
 			</div>
 			<!-- end select-part -->
@@ -543,7 +543,7 @@ if (!empty($_GET['id'])) {
 					</div>
 					<div class="col-2 align-items-center d-flex justify-content-center m-0 p-0 text-center">
 						<span class="confirm-icon clr_cross"><i class="fas fa-times"></i></span>
-						<span class="confirm-icon clr_tick"><i class="fas fa-check"></i></span>
+						<!-- <span class="confirm-icon clr_tick"><i class="fas fa-check"></i></span> -->
 					</div>
 				</div>
 			</div>
@@ -603,7 +603,7 @@ if (!empty($_GET['id'])) {
 
 			<div class="align-items-center d-flex justify-content-center m-0 p-0 text-center icons-prnt bg-inf">
 				<span class="confirm-icon story-menu-cross"><i class="fas fa-times"></i></span>
-				<span class="confirm-icon story-menu-tick"><i class="fas fa-check"></i></span>
+				<!-- <span class="confirm-icon story-menu-tick"><i class="fas fa-check"></i></span> -->
 			</div>
 		</div>
 		<!-- end-story-tab -->
@@ -652,7 +652,7 @@ if (!empty($_GET['id'])) {
 
 			<div class="align-items-center d-flex justify-content-center m-0 p-0 text-center icons-prnt bg-inf">
 				<span class="confirm-icon ad-menu-cross"><i class="fas fa-times"></i></span>
-				<span class="confirm-icon ad-menu-tick"><i class="fas fa-check"></i></span>
+				<!-- <span class="confirm-icon ad-menu-tick"><i class="fas fa-check"></i></span> -->
 			</div>
 		</div>
 		<!-- end-Adduns-tab -->
@@ -710,7 +710,7 @@ if (!empty($_GET['id'])) {
 
 			<div class="align-items-center d-flex justify-content-center m-0 p-0 text-center icons-prnt bg-inf">
 				<span class="confirm-icon instal-menu-cross"><i class="fas fa-times"></i></span>
-				<span class="confirm-icon ad-menu-tick"><i class="fas fa-check"></i></span>
+				<!-- <span class="confirm-icon ad-menu-tick"><i class="fas fa-check"></i></span> -->
 			</div>
 		</div>
 		<!-- end-intallation-tab -->
